@@ -62,6 +62,6 @@ def send_email(news_items, keyword):
         print(f"에러: 메일 발송 중 오류 발생 - {e}")
 
 if __name__ == "__main__":
-    target_keyword = "데이터베이스 보안" 
+    target_keyword = "KT위즈" 
     news = get_naver_news(target_keyword)
     send_email(news, target_keyword)
