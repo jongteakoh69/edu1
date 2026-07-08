@@ -4,6 +4,7 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
+
 def get_naver_news(keyword):
     # 환경 변수에서 키 가져오기
     client_id = os.environ.get('NAVER_CLIENT_ID')
