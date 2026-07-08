@@ -13,6 +13,7 @@ def get_naver_news(keyword):
         print("에러: 네이버 API 키가 설정되지 않았습니다.")
         return []
 
+    
     url = f"https://openapi.naver.com/v1/search/news.json?query={keyword}&display=5&sort=sim"
     headers = {
         "X-Naver-Client-Id": client_id,
